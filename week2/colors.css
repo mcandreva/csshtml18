@@ -1,23 +1,24 @@
 .name {
-  color: ;
+  color: darkcyan;
 }
 
 .rgb {
-  color: ;
+  color: rgb(255,125,12);
 }
 
 .hex {
-  color: ;
+  color: #328c2a ;
 }
 
-.hls {
-  color: ;
+.hsl {
+  color: hsl(76%, 23%, 34%)
+}
+
+.hsl {
+  color: hsl(73%, 23%, 45%);
 }
 
 .rgba {
-  color: ;
+  color: rgba(65,100, 54,.4);
 }
 
-.hlsa {
-  color: ;
-}

@@ -1,0 +1,49 @@
+.pixel {
+    font-size: 20px;   
+    color: darkcyan;
+}
+
+.pixel h2 {
+    font-size: 100px;
+}
+
+.percent {
+    font-size: 200%;
+    color: darkorange;
+}
+
+.percent h2 {
+    font-size: 200%;
+}
+
+.em {
+    /* 1em = current font size */
+    font-size: 3em;
+    color: turquoise;
+}
+
+.em h2 {
+    font-size: 2.5em;
+}
+.rem {
+/* like an em but, instead going to the parent, it goes to the parent */
+    color: dodgerblue;
+    font-size: 2rem;
+}
+
+.rem h2 {
+    /* better for desktop and mobile device, goes to the default font size for the device */
+    font-size: 2rem;
+}
+
+.vh {
+    /* view heights -  */
+    background-color: lightblue;
+    height: 60vh;
+}
+
+.vw {
+    background-color: salmon;
+    width: 40vw;
+
+}
