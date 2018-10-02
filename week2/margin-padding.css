@@ -6,4 +6,57 @@ body {
 .wrapper {
   width: 800px;
   background-color: #ffffff;
+  margin: 0 auto;
+  /* margin 0 auto states that there is not room on the top/bottom but auto divides remaining space on the left and right in half and centers sides. */
+  padding: 1em;
+}
+
+.wrapper h1 {
+  margin-top: 0;
+}
+
+.padding-example {
+  border: 3px solid deeppink;
+  text-align: justify;
+  /* padding: 20px; */
+  /* 20px is hard value - even if the font changes the padding doesnt. Unless you use em, a relative value. */
+  padding: 1em 3em 5em 10em;
+  /* padding is the distance from the border to the content */
+  line-height: 1em;
+}
+
+.margin-example {
+  /* margin is the distance from the border to the edge of the page or container */
+  background-color: darkorange;
+  padding: 1em;
+  border: 3px solid black;
+  margin: 1em 0;
+  /* margins offset each other unlike padding where 1+1=2. margins 1+1=1 */
+}
+
+.example {
+  background-color: firebrick;
+  text-color: white;
+  /* in the HTML file the content is enclosed in a p tag which has a 1em margin */
+  border: 3px solid black;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.example p {
+  margin: 0;
+}
+
+.box {
+  background-color: aquamarine;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.box p:first-child {
+  margin-top: 0;
+}
+
+.box p:last-child {
+  margin-bottom: 0;
 }

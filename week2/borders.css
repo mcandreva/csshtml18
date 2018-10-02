@@ -1,0 +1,44 @@
+body {
+    font: 16px arial;
+}
+
+div {
+    border-style: solid;
+    border-width: 10px;
+    color: red;
+    border-color: black;
+    /* border: 10px solid black; */
+    /* above is shorthand for everything */
+}
+
+.bottom {
+    border-color: teal;
+    border-bottom-color: orangered;
+}
+
+li {
+    border-bottom: 1px solid darkgrey;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.rounded {
+    border: 10px solid goldenrod;
+    border-radius: 15px;
+}
+
+.circle  {
+    background-color: rebeccapurple;
+    color: white;
+    width: 100px;
+    height: 100px;
+    /* h100 emmett would give you above height */
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 100px;
+    /* transform: rotate(-30deg); */
+    text-shadow: 1px 1px 10px black;
+}
