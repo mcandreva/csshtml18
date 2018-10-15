@@ -1,9 +1,17 @@
 @import "week3-base.css";
 
 ul {
-  /* line-height: 1.5em; */
+  line-height: 1.5em;
+}
+
+ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 .example {
   background-color: lightskyblue;
+  display: inline-block;
+  padding: .5em;
 }
