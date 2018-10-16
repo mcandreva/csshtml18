@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+html, body {
+  min-height: 100%;
+
+}
+
+
 body {
   font: 16px arial;
   margin: 0;
@@ -12,14 +18,33 @@ body {
   padding: 0;
   list-style-type: none;
   border: 10px solid black;
-/*   height: 100vh; */
+  height: 100vh;
   display: flex;
+  flex-direction: column;
+  /* justify-content: space-between;
+  align-items: center;
+  justify-content: center; */
+  /* flex-wrap: wrap;
+  align-content: space-between; */
 }
+
+/* align items and justify content can help to center but the axis change when you change the flex direction */
+
+/* parent element needs a height in order to align children within the parent */
 
 .child {
   padding: 1rem;
   background-color: goldenrod;
   border: 10px solid darkgoldenrod;
+  flex-grow: 1;
+  /* order: 2; */
+}
+
+.item3 {
+  /* order: 1; */
+  color: red;
+  /* flex-grow: 1; */
+  flex-grow: 3;
 }
 
 /* .parent::before {
