@@ -7,7 +7,8 @@ html, body {
 }
 
 body {
-  font: 16px arial;
+  font: 16px;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   background-color: #c0c0c0;
   display: flex;
@@ -33,9 +34,10 @@ h1 {
 }
 
 blockquote {
-  /* box-shadow: 0 0 5px rgba(0, 0, 0, .4) inset; */
-  /* margin: 0 -50px; */
+  box-shadow: 0 0 5px rgba(0, 0, 0, .4) inset;
+  margin: 0 -50px;
   font-size: 2em;
+  font-family: 'Spicy Rice', cursive;
   background-color: #fff;
   padding: 1em;
   border-radius: 30px;
