@@ -1,0 +1,6 @@
+@import url("file-include-2.css");
+
+body {
+  background-color: #c0c0c0;
+  font: 16px arial;
+}
