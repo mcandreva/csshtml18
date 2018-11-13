@@ -8,6 +8,18 @@
 </head>
 <body>
   <script>
+    var newDiv = document.createElement('div');
+    var newContent = document.createTextNode('My New Div');
+    newDiv.setAttribute('id', 'myIDName');
+    newDiv.classList.add('active');
+    newDiv.style.color = 'yellowgreen';
+    newDiv.appendChild(newContent);
+    var body = document.querySelector('body');
+    body.appendChild(newDiv);
+
+    newDiv.addEventListener('click', () => {
+      newDiv.style.fontSize = '3em';
+    });
   </script>
 </body>
 </html>
